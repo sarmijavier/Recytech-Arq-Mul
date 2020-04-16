@@ -1,0 +1,81 @@
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+#imgnombre{
+    width: 600px;
+    height: 300px;
+    padding: 100px 400px  ;
+}
+.posicion{
+    background-image: url(../img/fondo.jpg);
+    background-position: center center;
+    background-size: cover;     
+    height: 100vh;
+    min-height: 600px;
+}
+.contenedor{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+.barra{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+}
+.tamaño_logo{   
+    width: 125px;
+    height: 125px;
+}
+.navegacion a {
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+.navegacion a:hover{
+    color: violet;
+}
+.navegacion a:last-of-type{
+    margin-right: 0;
+}
+.barracont{
+    background-color: #004475;
+}
+.logorecto{
+    padding: 5px 5px;
+    width: 300px;
+    height: 100px;
+}
+.espacio{
+    width: 100%;
+    height: 100px;
+}
+.contenedorDatos{
+    width: 450px;
+    height: 600px;
+    margin-left: 35%;
+    margin-top: 2%;
+    background-color: #004475;
+    border-radius: 5%;
+}
+.centrarEntrada{
+    width: 350px;
+    height: 20px;
+    padding: 5px;
+    position: relative;
+    left: 20%;
+}
+.entrada{
+    width: 250px;
+    height: 20px;
+}
+.boton{
+    background-color: white;
+    width: 150px;
+    height: 30px;
+    position: relative;
+    left: 14%;
+}

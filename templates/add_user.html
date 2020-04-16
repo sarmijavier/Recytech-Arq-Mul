@@ -1,0 +1,21 @@
+{% extends 'index.html' %}
+
+{% block body %}
+<form action="/add" method="post">
+    <div class="contenedorDatos">
+        <div class="espacio"></div>
+        <p class="centrarEntrada"><input class="entrada" id="name" name="name" type="text" placeholder="Nombres">
+        <p class="centrarEntrada"><input class="entrada" id="lastname" name="lastname" type="text" placeholder="Apellidos"></p>
+        <p class="centrarEntrada"><input class="entrada" id="phone_number" name="phone_number" type="phone_number" placeholder="Numero Celular"></p>
+        <p class="centrarEntrada"><input class="entrada" id="email" name="email" type="email" placeholder="Correo electronico"> </p>  
+        <p class="centrarEntrada"><input class="entrada" id="password" name="password" type="text" placeholder="Contraseña"></p>
+        <p class="centrarEntrada"> <b>Tipo de usuario:</b></p>
+        <p class="centrarEntrada">Generador<input type="radio" name="Tipo" id="Tipo" value="generador"></p>
+        <p class="centrarEntrada">Reciclador<input type="radio" name="Tipo" id="Tipo" value="recolector"></p>    
+        <p class="centrarEntrada"><button class="boton" type="submit" name="button">Registrar</button></p>
+    </div>
+</form>
+<p>
+    <a href="/">Regresar</a>
+</p>
+{% endblock %}
